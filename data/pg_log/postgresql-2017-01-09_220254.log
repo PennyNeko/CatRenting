@@ -1,0 +1,81 @@
+2017-01-09 22:02:54 EET LOG:  database system was interrupted; last known up at 2017-01-09 21:44:33 EET
+2017-01-09 22:02:54 EET FATAL:  the database system is starting up
+2017-01-09 22:02:55 EET FATAL:  the database system is starting up
+2017-01-09 22:02:56 EET FATAL:  the database system is starting up
+2017-01-09 22:02:57 EET FATAL:  the database system is starting up
+2017-01-09 22:02:59 EET FATAL:  the database system is starting up
+2017-01-09 22:03:04 EET FATAL:  the database system is starting up
+2017-01-09 22:03:05 EET FATAL:  the database system is starting up
+2017-01-09 22:03:06 EET FATAL:  the database system is starting up
+2017-01-09 22:03:07 EET FATAL:  the database system is starting up
+2017-01-09 22:03:08 EET FATAL:  the database system is starting up
+2017-01-09 22:03:09 EET FATAL:  the database system is starting up
+2017-01-09 22:03:10 EET FATAL:  the database system is starting up
+2017-01-09 22:03:11 EET FATAL:  the database system is starting up
+2017-01-09 22:03:12 EET FATAL:  the database system is starting up
+2017-01-09 22:03:13 EET FATAL:  the database system is starting up
+2017-01-09 22:03:14 EET FATAL:  the database system is starting up
+2017-01-09 22:03:20 EET FATAL:  the database system is starting up
+2017-01-09 22:03:21 EET FATAL:  the database system is starting up
+2017-01-09 22:03:22 EET FATAL:  the database system is starting up
+2017-01-09 22:03:23 EET FATAL:  the database system is starting up
+2017-01-09 22:03:24 EET FATAL:  the database system is starting up
+2017-01-09 22:03:25 EET FATAL:  the database system is starting up
+2017-01-09 22:03:26 EET FATAL:  the database system is starting up
+2017-01-09 22:03:27 EET FATAL:  the database system is starting up
+2017-01-09 22:03:28 EET FATAL:  the database system is starting up
+2017-01-09 22:03:29 EET FATAL:  the database system is starting up
+2017-01-09 22:03:30 EET FATAL:  the database system is starting up
+2017-01-09 22:03:31 EET FATAL:  the database system is starting up
+2017-01-09 22:03:32 EET FATAL:  the database system is starting up
+2017-01-09 22:03:33 EET FATAL:  the database system is starting up
+2017-01-09 22:03:34 EET FATAL:  the database system is starting up
+2017-01-09 22:03:35 EET FATAL:  the database system is starting up
+2017-01-09 22:03:36 EET FATAL:  the database system is starting up
+2017-01-09 22:03:37 EET FATAL:  the database system is starting up
+2017-01-09 22:03:38 EET FATAL:  the database system is starting up
+2017-01-09 22:03:39 EET FATAL:  the database system is starting up
+2017-01-09 22:03:40 EET FATAL:  the database system is starting up
+2017-01-09 22:03:41 EET FATAL:  the database system is starting up
+2017-01-09 22:03:42 EET FATAL:  the database system is starting up
+2017-01-09 22:03:44 EET FATAL:  the database system is starting up
+2017-01-09 22:03:45 EET FATAL:  the database system is starting up
+2017-01-09 22:03:46 EET FATAL:  the database system is starting up
+2017-01-09 22:03:47 EET FATAL:  the database system is starting up
+2017-01-09 22:03:48 EET FATAL:  the database system is starting up
+2017-01-09 22:03:49 EET FATAL:  the database system is starting up
+2017-01-09 22:03:51 EET FATAL:  the database system is starting up
+2017-01-09 22:03:52 EET FATAL:  the database system is starting up
+2017-01-09 22:03:53 EET FATAL:  the database system is starting up
+2017-01-09 22:03:54 EET FATAL:  the database system is starting up
+2017-01-09 22:03:55 EET FATAL:  the database system is starting up
+2017-01-09 22:03:56 EET FATAL:  the database system is starting up
+2017-01-09 22:03:57 EET FATAL:  the database system is starting up
+2017-01-09 22:03:58 EET FATAL:  the database system is starting up
+2017-01-09 22:03:59 EET FATAL:  the database system is starting up
+2017-01-09 22:04:00 EET FATAL:  the database system is starting up
+2017-01-09 22:04:01 EET FATAL:  the database system is starting up
+2017-01-09 22:04:02 EET FATAL:  the database system is starting up
+2017-01-09 22:04:03 EET FATAL:  the database system is starting up
+2017-01-09 22:04:04 EET FATAL:  the database system is starting up
+2017-01-09 22:04:33 EET LOG:  database system was not properly shut down; automatic recovery in progress
+2017-01-09 22:04:33 EET LOG:  invalid record length at 0/7C1E8270: wanted 24, got 0
+2017-01-09 22:04:33 EET LOG:  redo is not required
+2017-01-09 22:04:34 EET LOG:  MultiXact member wraparound protections are now enabled
+2017-01-09 22:04:34 EET LOG:  database system is ready to accept connections
+2017-01-09 22:04:34 EET LOG:  autovacuum launcher started
+2017-01-09 22:06:04 EET FATAL:  password authentication failed for user "postgres"
+2017-01-09 22:06:04 EET DETAIL:  Password does not match for user "postgres".
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2017-01-09 22:18:46 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-09 22:18:46 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-09 22:30:04 EET ERROR:  canceling statement due to user request
+2017-01-09 22:30:04 EET STATEMENT:  select sum(consumption), customer
+	from alicante_1y
+	group by customer, date_part('year', t), date_part('month', t);
+2017-01-09 22:32:17 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-09 22:32:17 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

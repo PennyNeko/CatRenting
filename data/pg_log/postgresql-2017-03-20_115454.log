@@ -1,0 +1,11 @@
+2017-03-20 11:54:54 EET LOG:  database system was shut down at 2017-03-20 11:53:57 EET
+2017-03-20 11:54:54 EET FATAL:  the database system is starting up
+2017-03-20 11:54:55 EET LOG:  MultiXact member wraparound protections are now enabled
+2017-03-20 11:54:55 EET LOG:  database system is ready to accept connections
+2017-03-20 11:54:55 EET LOG:  autovacuum launcher started
+2017-03-20 14:28:39 EET LOG:  received fast shutdown request
+2017-03-20 14:28:39 EET LOG:  aborting any active transactions
+2017-03-20 14:28:39 EET ERROR:  canceling statement due to user request
+2017-03-20 14:28:39 EET LOG:  autovacuum launcher shutting down
+2017-03-20 14:28:39 EET LOG:  shutting down
+2017-03-20 14:28:41 EET LOG:  database system is shut down

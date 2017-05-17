@@ -1,0 +1,118 @@
+2017-01-08 16:17:18 EET LOG:  database system was interrupted; last known up at 2017-01-08 16:10:26 EET
+2017-01-08 16:17:18 EET FATAL:  the database system is starting up
+2017-01-08 16:17:19 EET FATAL:  the database system is starting up
+2017-01-08 16:17:20 EET FATAL:  the database system is starting up
+2017-01-08 16:17:21 EET FATAL:  the database system is starting up
+2017-01-08 16:17:22 EET FATAL:  the database system is starting up
+2017-01-08 16:17:23 EET FATAL:  the database system is starting up
+2017-01-08 16:17:24 EET FATAL:  the database system is starting up
+2017-01-08 16:17:26 EET FATAL:  the database system is starting up
+2017-01-08 16:17:27 EET FATAL:  the database system is starting up
+2017-01-08 16:17:28 EET FATAL:  the database system is starting up
+2017-01-08 16:17:29 EET FATAL:  the database system is starting up
+2017-01-08 16:17:30 EET FATAL:  the database system is starting up
+2017-01-08 16:17:31 EET FATAL:  the database system is starting up
+2017-01-08 16:17:32 EET FATAL:  the database system is starting up
+2017-01-08 16:17:33 EET FATAL:  the database system is starting up
+2017-01-08 16:17:34 EET FATAL:  the database system is starting up
+2017-01-08 16:17:35 EET FATAL:  the database system is starting up
+2017-01-08 16:17:36 EET FATAL:  the database system is starting up
+2017-01-08 16:17:37 EET FATAL:  the database system is starting up
+2017-01-08 16:17:38 EET FATAL:  the database system is starting up
+2017-01-08 16:17:39 EET FATAL:  the database system is starting up
+2017-01-08 16:17:40 EET FATAL:  the database system is starting up
+2017-01-08 16:17:41 EET FATAL:  the database system is starting up
+2017-01-08 16:17:42 EET FATAL:  the database system is starting up
+2017-01-08 16:17:43 EET FATAL:  the database system is starting up
+2017-01-08 16:17:44 EET FATAL:  the database system is starting up
+2017-01-08 16:17:45 EET FATAL:  the database system is starting up
+2017-01-08 16:17:46 EET FATAL:  the database system is starting up
+2017-01-08 16:17:47 EET FATAL:  the database system is starting up
+2017-01-08 16:17:48 EET FATAL:  the database system is starting up
+2017-01-08 16:17:49 EET FATAL:  the database system is starting up
+2017-01-08 16:17:50 EET FATAL:  the database system is starting up
+2017-01-08 16:17:51 EET FATAL:  the database system is starting up
+2017-01-08 16:17:52 EET FATAL:  the database system is starting up
+2017-01-08 16:17:53 EET FATAL:  the database system is starting up
+2017-01-08 16:17:54 EET FATAL:  the database system is starting up
+2017-01-08 16:17:55 EET LOG:  database system was not properly shut down; automatic recovery in progress
+2017-01-08 16:17:55 EET LOG:  invalid record length at 0/69141370: wanted 24, got 0
+2017-01-08 16:17:55 EET LOG:  redo is not required
+2017-01-08 16:17:55 EET LOG:  MultiXact member wraparound protections are now enabled
+2017-01-08 16:17:55 EET LOG:  database system is ready to accept connections
+2017-01-08 16:17:55 EET LOG:  autovacuum launcher started
+2017-01-08 16:25:16 EET FATAL:  password authentication failed for user "postgres"
+2017-01-08 16:25:16 EET DETAIL:  Password does not match for user "postgres".
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2017-01-08 16:26:21 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 21:28:14 EET ERROR:  relation "alicante_1y" already exists
+2017-01-08 21:28:14 EET STATEMENT:  CREATE TABLE public.alicante_1y
+	(
+	    customer text NOT NULL,
+	    t timestamp with time zone NOT NULL,
+	    consumption integer NOT NULL
+	)
+	WITH (
+	    OIDS = FALSE
+	)
+	TABLESPACE pg_default;
+	
+	ALTER TABLE public.alicante_1y
+	    OWNER to postgres;
+	
+	
+	
+	
+	
+2017-01-08 21:34:46 EET ERROR:  canceling autovacuum task
+2017-01-08 21:34:46 EET CONTEXT:  automatic analyze of table "postgres.public.alicante_1y"
+2017-01-08 21:39:55 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 21:39:55 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 21:50:54 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 21:50:54 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 21:52:35 EET ERROR:  canceling statement due to user request
+2017-01-08 21:52:35 EET STATEMENT:  select * from alicante_1y;
+2017-01-08 21:52:38 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 21:52:38 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 21:57:37 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 21:57:37 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 22:28:05 EET FATAL:  password authentication failed for user "postgres"
+2017-01-08 22:28:05 EET DETAIL:  Password does not match for user "postgres".
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2017-01-08 22:40:46 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 22:40:46 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 22:53:52 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-08 22:53:52 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-09 21:20:53 EET ERROR:  canceling statement due to user request
+2017-01-09 21:20:53 EET STATEMENT:  select distinct customer
+	from alicante_1y
+	where consumption = (select max(consumption) from alicante_1y where t='2014-06-15 12:00:00+03');
+	
+	select avg(consumption)
+	from alicante_1y
+	where extract (dow from t::timestamp)=0;
+	
+	select customer,date_part('month', t),date_part('year', t), sum(consumption)
+	from alicante_1y
+	group by customer, date_part('year', t), date_part('month', t);
+	
+	
+	
+2017-01-09 21:36:07 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-09 21:36:07 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-09 21:36:22 EET LOG:  received fast shutdown request

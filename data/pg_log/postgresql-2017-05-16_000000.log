@@ -1,0 +1,30 @@
+2017-05-17 16:32:49 EEST FATAL:  password authentication failed for user "postgres"
+2017-05-17 16:32:49 EEST DETAIL:  Password does not match for user "postgres".
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2017-05-17 16:38:00 EEST ERROR:  syntax error at or near "*" at character 12
+2017-05-17 16:38:00 EEST STATEMENT:  DROP TABLE * FROM Tables;
+2017-05-17 16:38:08 EEST ERROR:  syntax error at or near "*" at character 7
+2017-05-17 16:38:08 EEST STATEMENT:  DROP  * FROM Tables;
+2017-05-17 16:53:16 EEST ERROR:  database "Carsystem" already exists
+2017-05-17 16:53:16 EEST STATEMENT:  CREATE DATABASE "Carsystem"
+	    WITH 
+	    OWNER = postgres
+	    ENCODING = 'UTF8'
+	    CONNECTION LIMIT = -1;
+	
+2017-05-17 17:20:49 EEST ERROR:  database "CatRenting" already exists
+2017-05-17 17:20:49 EEST STATEMENT:  CREATE DATABASE "CatRenting"
+	    WITH 
+	    OWNER = postgres
+	    ENCODING = 'UTF8'
+	    CONNECTION LIMIT = -1;
+	
+2017-05-17 17:24:48 EEST LOG:  received fast shutdown request
+2017-05-17 17:24:48 EEST LOG:  aborting any active transactions
+2017-05-17 17:24:48 EEST FATAL:  terminating connection due to administrator command
+2017-05-17 17:24:48 EEST FATAL:  terminating connection due to administrator command
+2017-05-17 17:24:48 EEST FATAL:  terminating connection due to administrator command
+2017-05-17 17:24:48 EEST LOG:  autovacuum launcher shutting down
+2017-05-17 17:24:48 EEST LOG:  shutting down
+2017-05-17 17:24:49 EEST FATAL:  the database system is shutting down
+2017-05-17 17:24:50 EEST LOG:  database system is shut down

@@ -1,0 +1,6 @@
+2017-04-06 00:14:24 EEST LOG:  received fast shutdown request
+2017-04-06 00:14:24 EEST LOG:  aborting any active transactions
+2017-04-06 00:14:28 EEST ERROR:  canceling statement due to user request
+2017-04-06 00:14:28 EEST LOG:  autovacuum launcher shutting down
+2017-04-06 00:14:29 EEST LOG:  shutting down
+2017-04-06 00:14:40 EEST LOG:  database system is shut down

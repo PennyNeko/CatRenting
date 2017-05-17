@@ -1,0 +1,52 @@
+2017-02-02 10:02:24 EET LOG:  database system was interrupted; last known up at 2017-01-27 23:20:25 EET
+2017-02-02 10:02:24 EET FATAL:  the database system is starting up
+2017-02-02 10:02:25 EET FATAL:  the database system is starting up
+2017-02-02 10:02:26 EET FATAL:  the database system is starting up
+2017-02-02 10:02:27 EET FATAL:  the database system is starting up
+2017-02-02 10:02:28 EET FATAL:  the database system is starting up
+2017-02-02 10:02:29 EET FATAL:  the database system is starting up
+2017-02-02 10:02:30 EET FATAL:  the database system is starting up
+2017-02-02 10:02:31 EET FATAL:  the database system is starting up
+2017-02-02 10:02:32 EET FATAL:  the database system is starting up
+2017-02-02 10:02:33 EET FATAL:  the database system is starting up
+2017-02-02 10:02:34 EET FATAL:  the database system is starting up
+2017-02-02 10:02:35 EET FATAL:  the database system is starting up
+2017-02-02 10:02:36 EET FATAL:  the database system is starting up
+2017-02-02 10:02:37 EET FATAL:  the database system is starting up
+2017-02-02 10:02:38 EET FATAL:  the database system is starting up
+2017-02-02 10:02:39 EET FATAL:  the database system is starting up
+2017-02-02 10:02:40 EET FATAL:  the database system is starting up
+2017-02-02 10:02:41 EET FATAL:  the database system is starting up
+2017-02-02 10:02:42 EET FATAL:  the database system is starting up
+2017-02-02 10:02:43 EET FATAL:  the database system is starting up
+2017-02-02 10:02:45 EET FATAL:  the database system is starting up
+2017-02-02 10:02:46 EET FATAL:  the database system is starting up
+2017-02-02 10:02:47 EET FATAL:  the database system is starting up
+2017-02-02 10:02:48 EET FATAL:  the database system is starting up
+2017-02-02 10:02:49 EET FATAL:  the database system is starting up
+2017-02-02 10:02:50 EET FATAL:  the database system is starting up
+2017-02-02 10:02:51 EET FATAL:  the database system is starting up
+2017-02-02 10:02:52 EET FATAL:  the database system is starting up
+2017-02-02 10:02:55 EET FATAL:  the database system is starting up
+2017-02-02 10:02:57 EET FATAL:  the database system is starting up
+2017-02-02 10:02:58 EET FATAL:  the database system is starting up
+2017-02-02 10:02:59 EET FATAL:  the database system is starting up
+2017-02-02 10:03:00 EET FATAL:  the database system is starting up
+2017-02-02 10:03:01 EET FATAL:  the database system is starting up
+2017-02-02 10:03:02 EET FATAL:  the database system is starting up
+2017-02-02 10:03:03 EET FATAL:  the database system is starting up
+2017-02-02 10:03:04 EET FATAL:  the database system is starting up
+2017-02-02 10:03:05 EET FATAL:  the database system is starting up
+2017-02-02 10:03:06 EET FATAL:  the database system is starting up
+2017-02-02 10:03:07 EET FATAL:  the database system is starting up
+2017-02-02 10:03:08 EET FATAL:  the database system is starting up
+2017-02-02 10:03:09 EET FATAL:  the database system is starting up
+2017-02-02 10:03:10 EET FATAL:  the database system is starting up
+2017-02-02 10:03:11 EET FATAL:  the database system is starting up
+2017-02-02 10:03:12 EET FATAL:  the database system is starting up
+2017-02-02 10:03:12 EET LOG:  database system was not properly shut down; automatic recovery in progress
+2017-02-02 10:03:12 EET LOG:  invalid record length at 0/BB726A48: wanted 24, got 0
+2017-02-02 10:03:12 EET LOG:  redo is not required
+2017-02-02 10:03:13 EET LOG:  MultiXact member wraparound protections are now enabled
+2017-02-02 10:03:13 EET LOG:  database system is ready to accept connections
+2017-02-02 10:03:13 EET LOG:  autovacuum launcher started

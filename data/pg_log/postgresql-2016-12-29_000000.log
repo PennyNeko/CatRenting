@@ -1,0 +1,55 @@
+2016-12-29 16:53:13 EET FATAL:  password authentication failed for user "postgres"
+2016-12-29 16:53:13 EET DETAIL:  Password does not match for user "postgres".
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2016-12-29 17:04:12 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-29 17:04:12 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-29 17:04:12 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-29 17:04:12 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-29 17:04:12 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-29 17:04:12 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-29 17:05:57 EET ERROR:  syntax error at or near "asc" at character 36
+2016-12-29 17:05:57 EET STATEMENT:  select * from alicante_1y limit 10 asc;
+2016-12-29 17:06:40 EET ERROR:  syntax error at or near "order" at character 36
+2016-12-29 17:06:40 EET STATEMENT:  select * from alicante_1y limit 10 order by t asc;
+2016-12-29 18:00:17 EET ERROR:  canceling statement due to user request
+2016-12-29 18:00:17 EET STATEMENT:  select sum(consumption), customer
+	from alicante_1y
+	where date_part('month',t)>=1 and date_part('month',t)<=12
+	group by customer;
+	
+2016-12-29 18:21:14 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-29 18:21:14 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-29 18:21:14 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-30 16:10:22 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-30 16:10:22 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-30 16:23:50 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-30 22:40:31 EET FATAL:  password authentication failed for user "postgres"
+2016-12-30 22:40:31 EET DETAIL:  Password does not match for user "postgres".
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2016-12-30 22:40:41 EET FATAL:  password authentication failed for user "postgres"
+2016-12-30 22:40:41 EET DETAIL:  Password does not match for user "postgres".
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2016-12-30 22:40:48 EET FATAL:  password authentication failed for user "postgres"
+2016-12-30 22:40:48 EET DETAIL:  Password does not match for user "postgres".
+	Connection matched pg_hba.conf line 82: "host    all             all             ::1/128                 md5"
+2016-12-30 22:44:21 EET ERROR:  "alicante_1y" is not an index
+2016-12-30 22:44:21 EET HINT:  Use DROP TABLE to remove a table.
+2016-12-30 22:44:21 EET STATEMENT:  DROP INDEX alicante_1y;
+2016-12-30 22:48:14 EET ERROR:  column "customer" of relation "alicante_1y" does not exist
+2016-12-30 22:48:14 EET STATEMENT:  copy alicante_1y(customer,t,consumption) from 'C:\temp\alicante_1y.txt' with csv header;
+2016-12-30 23:28:09 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2016-12-30 23:28:09 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

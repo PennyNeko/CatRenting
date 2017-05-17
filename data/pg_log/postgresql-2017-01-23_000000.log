@@ -1,0 +1,36 @@
+2017-01-24 23:37:30 EET ERROR:  syntax error at or near "from" at character 44
+2017-01-24 23:37:30 EET STATEMENT:  create index numberthree on alicante ((dow from t::timestamp)) ;
+2017-01-24 23:38:31 EET ERROR:  relation "alicante" does not exist
+2017-01-24 23:38:31 EET STATEMENT:  create index numberthree on alicante ((t::timestamp)) ;
+2017-01-24 23:38:46 EET ERROR:  syntax error at or near "from" at character 47
+2017-01-24 23:38:46 EET STATEMENT:  create index numberthree on alicante_1y ((dow from t::timestamp)) ;
+2017-01-24 23:39:07 EET ERROR:  syntax error at or near "from" at character 48
+2017-01-24 23:39:07 EET STATEMENT:  create index numberthree on alicante_1y ( (dow from t::timestamp) ) ;
+2017-01-24 23:44:32 EET ERROR:  invalid input syntax for type timestamp: "2014-06-15 12:00:00+" at character 114
+2017-01-24 23:44:32 EET STATEMENT:   select distinct customer
+	from alicante_1y
+	where consumption = (select max(consumption) from alicante_1y where t='2014-06-15 12:00:00+');
+	 
+	
+2017-01-24 23:47:30 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-24 23:47:30 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-24 23:55:35 EET ERROR:  syntax error at or near "from" at character 48
+2017-01-24 23:55:35 EET STATEMENT:  create index numberthree on alicante_1y (( dow from t::timestamp));
+2017-01-25 00:02:56 EET ERROR:  relation "numberfour" already exists
+2017-01-25 00:02:56 EET STATEMENT:  create index numberfour on alicante_1y ((date_part('month',t)));
+2017-01-25 00:04:21 EET ERROR:  syntax error at or near "," at character 62
+2017-01-25 00:04:21 EET STATEMENT:  create index numbertw13o on alicante_1y ((date_part('year',t),date_part('month',t)));
+2017-01-25 00:04:38 EET ERROR:  syntax error at or near "," at character 62
+2017-01-25 00:04:38 EET STATEMENT:  create index numbertw13o on alicante_1y ((date_part('year',t),date_part('month',t)));
+2017-01-25 00:12:57 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-25 00:12:57 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-25 00:20:33 EET ERROR:  syntax error at or near "," at character 66
+2017-01-25 00:20:33 EET STATEMENT:  create index numberthree1 on alicante_1y (( date_part('month', t),date_part('year', t) ));
+2017-01-25 00:25:21 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2017-01-25 00:25:21 EET LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

@@ -1,0 +1,46 @@
+2017-04-24 13:11:57 EEST LOG:  database system was interrupted; last known up at 2017-04-24 13:08:51 EEST
+2017-04-24 13:11:57 EEST FATAL:  the database system is starting up
+2017-04-24 13:11:58 EEST FATAL:  the database system is starting up
+2017-04-24 13:11:59 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:00 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:01 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:02 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:03 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:04 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:05 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:06 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:07 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:08 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:10 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:11 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:12 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:13 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:14 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:15 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:16 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:17 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:18 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:19 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:20 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:21 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:22 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:23 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:24 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:25 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:27 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:28 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:29 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:30 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:31 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:32 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:33 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:34 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:35 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:36 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:37 EEST FATAL:  the database system is starting up
+2017-04-24 13:12:37 EEST LOG:  database system was not properly shut down; automatic recovery in progress
+2017-04-24 13:12:37 EEST LOG:  invalid record length at 0/BB726F88: wanted 24, got 0
+2017-04-24 13:12:37 EEST LOG:  redo is not required
+2017-04-24 13:12:37 EEST LOG:  MultiXact member wraparound protections are now enabled
+2017-04-24 13:12:37 EEST LOG:  database system is ready to accept connections
+2017-04-24 13:12:37 EEST LOG:  autovacuum launcher started
