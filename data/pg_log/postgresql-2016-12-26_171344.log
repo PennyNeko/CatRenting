@@ -1,9 +1,0 @@
-2016-12-26 17:13:44 EET LOG:  database system was shut down at 2016-12-26 17:13:26 EET
-2016-12-26 17:13:44 EET LOG:  MultiXact member wraparound protections are now enabled
-2016-12-26 17:13:44 EET LOG:  database system is ready to accept connections
-2016-12-26 17:13:44 EET LOG:  autovacuum launcher started
-2016-12-26 17:22:56 EET LOG:  received fast shutdown request
-2016-12-26 17:22:56 EET LOG:  aborting any active transactions
-2016-12-26 17:22:56 EET LOG:  autovacuum launcher shutting down
-2016-12-26 17:22:56 EET LOG:  shutting down
-2016-12-26 17:22:56 EET LOG:  database system is shut down
